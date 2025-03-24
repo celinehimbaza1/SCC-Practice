@@ -4,5 +4,4 @@ const sum= a+b;
 const dif= a-b;
 const pro= a*b;
 const div= a/b;
-console.log('the sum of two number is:' +sum + ' ' +'the difference is:' + dif + ' ' +'the product is:' +pro +' ' +'the divisionis:' + div)
-console.log('the sum of two number is:' +sum + ' ' +'the difference is:' + dif + ' ' +'the product is:' +pro +' ' +'the divisionis:' + div)
+console.log(`The sum of two number is: ${sum} , The difference is: ${dif} ,The product is: ${pro}, The divisionis: ${div}`)
