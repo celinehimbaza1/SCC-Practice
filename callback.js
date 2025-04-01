@@ -1,13 +1,11 @@
 function greeting(name, callback) {
   console.log(`Hello ${name}`);
-  callback(); // Call the function
+  callback();
 }
 
 function add(a, b) {
-  console.log(a + b); // Print the sum instead of returning
+  console.log(a + b);
 }
-
-// Pass an anonymous function to call `add` with arguments
 greeting("Celine", function() {
   add(2, 4);
 });
