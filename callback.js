@@ -7,5 +7,5 @@ function add(a, b) {
   console.log(a + b);
 }
 greeting("Celine", function() {
-  add(2, 4);
+  add(2,4);
 });
