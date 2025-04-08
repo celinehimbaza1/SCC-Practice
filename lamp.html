@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp on and off</title>
+    <style>
+        .lampoff{
+            background-color: grey;
+        }
+        .lampon{
+            background-color: green;
+        }
+        #lamp{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        #taggleButton{
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lampoff" id="lamp"> </div>
+<button id="taggleButton">Click Me</div>
+    <script>
+        const lamp= document.getElementById('lamp');
+        const button= document.getElementById('taggleButton');
+        button.addEventListener('click',() => {
+            lamp.classList.toggle('lampoff');
+            lamp.classList.toggle('lampon');
+
+        })
+    </script>
+</body>
+</html>
